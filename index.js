@@ -278,7 +278,7 @@ module.exports = function(source) {
 
       // export as module if template is not blank
       var slug = template ?
-        'var Handlebars = require(' + JSON.stringify(runtimePath) + ');\n'
+        'window.Handlebars = require(' + JSON.stringify(runtimePath) + ');\n'
         + 'require("secure-handlebars-helpers");\n'
         + 'function __default(obj) { return obj && (obj.__esModule ? obj["default"] : obj); }\n'
         + 'module.exports = (Handlebars["default"] || Handlebars).template(' + template + ');' :
