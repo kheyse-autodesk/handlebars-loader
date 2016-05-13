@@ -1,5 +1,5 @@
 var loaderUtils = require("loader-utils");
-var handlebars = require("handlebars");
+var handlebars = require("secure-handlebars");
 var async = require("async");
 var util = require("util");
 var path = require("path");
