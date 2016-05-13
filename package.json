@@ -1,5 +1,5 @@
 {
-  "name": "handlebars-loader",
+  "name": "secure-handlebars-loader",
   "contributors": [
     "Alan @altano",
     "Tobias Koppers @sokra",
@@ -15,7 +15,7 @@
     "loader-utils": "0.2.x"
   },
   "peerDependencies": {
-    "secure-handlebars": "latest"
+    "secure-handlebars": "1.2.0"
   },
   "licenses": [
     {
